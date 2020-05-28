@@ -1,0 +1,5 @@
+nexmo
+boto3
+Flask
+serverless-wsgi
+Werkzeug
