@@ -68,7 +68,7 @@ There are 4 URL endpoints available with this client:
 2 HTTP POST request to `/add`
 
 * This action stores the message in SQS.
-* Pass a POST with a JSON body like the following. Substitute the placeholders, indicated with `<>` with your data.
+* Submit a `POST` request with a JSON body like the following. Substitute the placeholders, indicated with `<>` with your data.
 * The result contains the SQS `MessageId`.
 
 ```json
@@ -91,7 +91,7 @@ location=None, media_mode=relayed, archive_mode=manual
 4 HTTP POST request to `/delete`
 
 * This action deletes the message from SQS.
-* Pass a POST with a JSON body like the following. Substitute the placeholders, indicated with `<>` with your data.
+* Submit a `POST` request with a JSON body like the following. Substitute the placeholders, indicated with `<>` with your data.
 
 ```json
 {
@@ -116,7 +116,7 @@ The `get` endpoint will return a message for use.
 
 GET `https://7ulasfasdasdfw4.execute-api.us-east-1.amazonaws.com/dev/delete`
 
-The `delete` endpoing will delete a message from SQS.
+The `delete` endpoint will delete a message from SQS.
 
 #### Deactivating Virtualenv
 To exit the virtualenv you can deactivate it, when desired.

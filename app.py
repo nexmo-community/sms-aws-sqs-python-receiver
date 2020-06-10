@@ -17,7 +17,6 @@ def index():
 # store an SMS message to SQS FIFO for later sending
 @app.route('/add', methods=['POST'])
 def add():
-
     if request.method == 'POST':
         message = request.get_json()
 
