@@ -1,0 +1,25 @@
+{
+  "name": "messagequeue",
+  "description": "A Flask based Python Lambda function for Vonage bulk receiving messages or SMS using AWS SQS",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexmo-community/sms-aws-sqs-python-receiver.git"
+  },
+  "keywords": [],
+  "author": "Adam Culp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexmo-community/sms-aws-sqs-python-receiver/issues"
+  },
+  "homepage": "https://github.com/nexmo-community/sms-aws-sqs-python-receiver#readme"
+}
